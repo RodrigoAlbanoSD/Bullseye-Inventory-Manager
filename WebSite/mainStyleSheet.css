@@ -1,0 +1,219 @@
+.title{
+    /*text-align: center;*/
+    background-color: #E09100;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 1.5em;
+    /*width: 100%;*/
+    /*display:block;*/
+}
+h1{
+    text-align: center;
+    background-color: #E09100;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 2em;
+    /*margin-bottom: 50px;*/
+}
+button{
+    background-color: #005DD4;
+    border-radius: 10%;
+    /*padding: 2% 4% 2% 4%;*/
+    
+}
+body{
+    background-color: azure;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+}
+img{
+    width: 100%;
+    display: block;
+}
+
+
+/*index*/
+#ChooseLocation{
+    border: solid thin #8F5D00;
+    position:absolute;
+    top: 60%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    width: 500px;
+    box-shadow: 10px 10px lightblue;
+}
+#ChooseLocation p{
+    width: 46%;
+    margin-left: 2%;
+    margin-top: 3%;
+    float: left;
+}
+#ChooseLocation select{
+    width: 40%;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+#btnChooseLocation{
+    margin-top: 6%;
+    margin-left: 28%;
+    margin-bottom: 6%;
+    padding: 2% 4% 2% 4%;
+
+}
+
+
+
+
+
+/*buildPage*/
+#Table{
+    width: 50%;
+    margin-left: 1%;
+    float: left;
+    /*clear: left;*/
+    
+}
+table, td, th {
+    border-bottom: solid thin #8F5D00;
+    border-top: solid thin #8F5D00;
+    border-collapse: collapse;
+}
+table{
+    border-left:  solid thin #8F5D00;
+    border-right:  solid thin #8F5D00;
+}
+td{
+    font-size: 1em;
+    padding: 8px;
+}
+td:nth-child(2){
+    text-align: center;
+}
+th {
+    padding: 10px;
+    background-color: #1774EB;
+    color: white;
+    font-weight: bold;
+}
+
+#navigator{
+    overflow: auto;
+    padding: 15px;
+    clear: left;
+}
+
+#btnBack{
+    background-color: azure;
+    width: 50px;
+    float: left;
+    margin: 2%;
+}
+
+
+#FormCategory{
+    float: left;
+    /*margin: 1%;*/
+    width: 50%;
+    border-bottom: solid thick;
+    border-bottom-color: #E09100;
+    /*clear: right;*/
+}
+#FormCategory p{
+    float: left;
+    margin: 2%;
+    margin-top: 2%;
+}
+#FormCategory select{
+    float: left;
+    margin: 2%;
+    /*margin-left: 2%;*/
+}
+#FormCategory button{
+    float: right;
+    margin: 2%;
+    margin-top: 2%;
+    padding: 1% 4% 1% 4%;
+}
+
+#FormAdd{
+    float: left;
+    margin-left: 2%;
+    width: 40%;
+    border: solid thin;
+}
+#retailLogo{
+    float: left;
+    width: 30%;
+}
+#container{
+    float: left;
+    width: 65%;
+}
+#FormAdd p{
+    /*margin-left: 2%;*/
+    float: left;
+}
+#FormAdd input{
+    margin-left: 2%;
+    margin-top: 5%;
+    width: 10%;
+    float: left;
+        
+}
+#FormAdd button{
+    float: right;
+    margin: 2%;
+    padding: 10px;
+    
+}
+
+
+#Cart{
+    width: 40%;
+    border: solid thin grey;
+    background-color: beige;
+    margin-left: 5%;
+    float: left;
+}
+#Cart p{
+    padding: 2%;
+}
+#Cart button{
+    float: right;
+    margin: 5%;
+    padding: 2% 4% 2% 4%;
+    font-size: 1.25em;
+}
+
+
+
+.highlighted{
+    background-color: #E09100;
+    opacity: 0.15;
+    
+}
+
+
+/*finishOrder*/
+
+#GetClientInfo{
+    margin: 2%;
+    float: left;
+    width: 40%;
+}
+
+#GetClientInfo button{
+    margin-top: 5%;
+    padding: 2% 4% 2% 4%;
+    font-size: 1.25em;
+}
+
+#productList{
+    float: right;
+    padding: 2%;
+    margin: 2%;
+    margin-top: 8%;
+    background-color: beige;
+    width: 40%;
+}
